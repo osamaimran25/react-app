@@ -12,12 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2-beta
+      - name: setting up node js
+        uses: actions/setup-node@v2-beta
         with:
           node-version: 12
       
       - name: setting yarn 
-      - uses: Borales/actions-yarn@v2.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install
       
