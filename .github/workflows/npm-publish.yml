@@ -22,13 +22,13 @@ jobs:
           cmd: install
       
       - name: making build
-      - run: yarn build
+        run: yarn build
         
         
       - name: installing surge
-      - run: npm install -g surge
+        run: npm install -g surge
       
       - name: deoloying on surge 
-      - run: surge ./build http://osamacamp.surge.sh/ --token ${{ secrets.REACT_TOKEN}}   
+        run: surge ./build http://osamacamp.surge.sh/ --token ${{ secrets.REACT_TOKEN}}   
       
  
