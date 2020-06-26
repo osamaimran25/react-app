@@ -28,7 +28,7 @@ jobs:
         
         
       - name: installing surge
-        run:  npm install -g surge
+        run:  npm install --global surge
       
       - name: deoloying on surge
         run: surge ./build http://osamacamp.surge.sh --token $ {{ secrets.REACT_TOKEN}}
