@@ -8,7 +8,7 @@ function App() {
       {/* <header >
         Hello All
         </header> */}
-    <h1>Hello this is react  </h1>
+    <h1>Hello this is react z </h1>
     </div>
   );
 }
