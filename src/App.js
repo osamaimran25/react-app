@@ -8,7 +8,10 @@ function App() {
       {/* <header >
         Hello All
         </header> */}
-    <h1>Hello this is react O AND A </h1>
+    <h1>In sha Allah will be best full stack developer Osama  </h1>
+    <p> and will _______ with _________
+
+    </p>
     </div>
   );
 }
